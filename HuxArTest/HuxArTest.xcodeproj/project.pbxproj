@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B5B7CD124217F7F00672EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7CD024217F7F00672EEB /* AppDelegate.swift */; };
+		7B5B7CD324217F7F00672EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7CD224217F7F00672EEB /* ContentView.swift */; };
+		7B5B7CD524217F8000672EEB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7CD424217F8000672EEB /* Experience.rcproject */; };
+		7B5B7CD724217F8700672EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5B7CD624217F8700672EEB /* Assets.xcassets */; };
+		7B5B7CDA24217F8700672EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5B7CD924217F8700672EEB /* Preview Assets.xcassets */; };
+		7B5B7CDD24217F8700672EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5B7CDB24217F8700672EEB /* LaunchScreen.storyboard */; };
+		7B5B7CE824217F8800672EEB /* HuxArTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7CE724217F8800672EEB /* HuxArTestTests.swift */; };
+		7B5B7CF324217F8800672EEB /* HuxArTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7CF224217F8800672EEB /* HuxArTestUITests.swift */; };
+		7B5B7D0124217FAF00672EEB /* HuxleyAr.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B7D0024217FAF00672EEB /* HuxleyAr.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B5B7CE424217F8800672EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5B7CC524217F7F00672EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5B7CCC24217F7F00672EEB;
+			remoteInfo = HuxArTest;
+		};
+		7B5B7CEF24217F8800672EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5B7CC524217F7F00672EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5B7CCC24217F7F00672EEB;
+			remoteInfo = HuxArTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B5B7CCD24217F7F00672EEB /* HuxArTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuxArTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5B7CD024217F7F00672EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B5B7CD224217F7F00672EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B5B7CD424217F8000672EEB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		7B5B7CD624217F8700672EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B5B7CD924217F8700672EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B5B7CDC24217F8700672EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B5B7CDE24217F8700672EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5B7CE324217F8800672EEB /* HuxArTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuxArTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5B7CE724217F8800672EEB /* HuxArTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuxArTestTests.swift; sourceTree = "<group>"; };
+		7B5B7CE924217F8800672EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5B7CEE24217F8800672EEB /* HuxArTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuxArTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5B7CF224217F8800672EEB /* HuxArTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuxArTestUITests.swift; sourceTree = "<group>"; };
+		7B5B7CF424217F8800672EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5B7D0024217FAF00672EEB /* HuxleyAr.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = HuxleyAr.rcproject; path = ../../HuxleyAr.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B5B7CCA24217F7F00672EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CE024217F8800672EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CEB24217F8800672EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B5B7CC424217F7F00672EEB = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CCF24217F7F00672EEB /* HuxArTest */,
+				7B5B7CE624217F8800672EEB /* HuxArTestTests */,
+				7B5B7CF124217F8800672EEB /* HuxArTestUITests */,
+				7B5B7CCE24217F7F00672EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B5B7CCE24217F7F00672EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CCD24217F7F00672EEB /* HuxArTest.app */,
+				7B5B7CE324217F8800672EEB /* HuxArTestTests.xctest */,
+				7B5B7CEE24217F8800672EEB /* HuxArTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5B7CCF24217F7F00672EEB /* HuxArTest */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CD024217F7F00672EEB /* AppDelegate.swift */,
+				7B5B7CD224217F7F00672EEB /* ContentView.swift */,
+				7B5B7CD424217F8000672EEB /* Experience.rcproject */,
+				7B5B7D0024217FAF00672EEB /* HuxleyAr.rcproject */,
+				7B5B7CD624217F8700672EEB /* Assets.xcassets */,
+				7B5B7CDB24217F8700672EEB /* LaunchScreen.storyboard */,
+				7B5B7CDE24217F8700672EEB /* Info.plist */,
+				7B5B7CD824217F8700672EEB /* Preview Content */,
+			);
+			path = HuxArTest;
+			sourceTree = "<group>";
+		};
+		7B5B7CD824217F8700672EEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CD924217F8700672EEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B5B7CE624217F8800672EEB /* HuxArTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CE724217F8800672EEB /* HuxArTestTests.swift */,
+				7B5B7CE924217F8800672EEB /* Info.plist */,
+			);
+			path = HuxArTestTests;
+			sourceTree = "<group>";
+		};
+		7B5B7CF124217F8800672EEB /* HuxArTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B7CF224217F8800672EEB /* HuxArTestUITests.swift */,
+				7B5B7CF424217F8800672EEB /* Info.plist */,
+			);
+			path = HuxArTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B5B7CCC24217F7F00672EEB /* HuxArTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5B7CF724217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTest" */;
+			buildPhases = (
+				7B5B7CC924217F7F00672EEB /* Sources */,
+				7B5B7CCA24217F7F00672EEB /* Frameworks */,
+				7B5B7CCB24217F7F00672EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuxArTest;
+			productName = HuxArTest;
+			productReference = 7B5B7CCD24217F7F00672EEB /* HuxArTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B5B7CE224217F8800672EEB /* HuxArTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5B7CFA24217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTestTests" */;
+			buildPhases = (
+				7B5B7CDF24217F8800672EEB /* Sources */,
+				7B5B7CE024217F8800672EEB /* Frameworks */,
+				7B5B7CE124217F8800672EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5B7CE524217F8800672EEB /* PBXTargetDependency */,
+			);
+			name = HuxArTestTests;
+			productName = HuxArTestTests;
+			productReference = 7B5B7CE324217F8800672EEB /* HuxArTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B5B7CED24217F8800672EEB /* HuxArTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5B7CFD24217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTestUITests" */;
+			buildPhases = (
+				7B5B7CEA24217F8800672EEB /* Sources */,
+				7B5B7CEB24217F8800672EEB /* Frameworks */,
+				7B5B7CEC24217F8800672EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5B7CF024217F8800672EEB /* PBXTargetDependency */,
+			);
+			name = HuxArTestUITests;
+			productName = HuxArTestUITests;
+			productReference = 7B5B7CEE24217F8800672EEB /* HuxArTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B5B7CC524217F7F00672EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Oscar Capraro";
+				TargetAttributes = {
+					7B5B7CCC24217F7F00672EEB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7B5B7CE224217F8800672EEB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7B5B7CCC24217F7F00672EEB;
+					};
+					7B5B7CED24217F8800672EEB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7B5B7CCC24217F7F00672EEB;
+					};
+				};
+			};
+			buildConfigurationList = 7B5B7CC824217F7F00672EEB /* Build configuration list for PBXProject "HuxArTest" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B5B7CC424217F7F00672EEB;
+			productRefGroup = 7B5B7CCE24217F7F00672EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B5B7CCC24217F7F00672EEB /* HuxArTest */,
+				7B5B7CE224217F8800672EEB /* HuxArTestTests */,
+				7B5B7CED24217F8800672EEB /* HuxArTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B5B7CCB24217F7F00672EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5B7CDD24217F8700672EEB /* LaunchScreen.storyboard in Resources */,
+				7B5B7CDA24217F8700672EEB /* Preview Assets.xcassets in Resources */,
+				7B5B7CD724217F8700672EEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CE124217F8800672EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CEC24217F8800672EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B5B7CC924217F7F00672EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5B7CD324217F7F00672EEB /* ContentView.swift in Sources */,
+				7B5B7CD124217F7F00672EEB /* AppDelegate.swift in Sources */,
+				7B5B7D0124217FAF00672EEB /* HuxleyAr.rcproject in Sources */,
+				7B5B7CD524217F8000672EEB /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CDF24217F8800672EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5B7CE824217F8800672EEB /* HuxArTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5B7CEA24217F8800672EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5B7CF324217F8800672EEB /* HuxArTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B5B7CE524217F8800672EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5B7CCC24217F7F00672EEB /* HuxArTest */;
+			targetProxy = 7B5B7CE424217F8800672EEB /* PBXContainerItemProxy */;
+		};
+		7B5B7CF024217F8800672EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5B7CCC24217F7F00672EEB /* HuxArTest */;
+			targetProxy = 7B5B7CEF24217F8800672EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B5B7CDB24217F8700672EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5B7CDC24217F8700672EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B5B7CF524217F8800672EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B5B7CF624217F8800672EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B5B7CF824217F8800672EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HuxArTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 398CS47WP9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HuxArTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B5B7CF924217F8800672EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HuxArTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 398CS47WP9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HuxArTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B5B7CFB24217F8800672EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuxArTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuxArTest.app/HuxArTest";
+			};
+			name = Debug;
+		};
+		7B5B7CFC24217F8800672EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuxArTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuxArTest.app/HuxArTest";
+			};
+			name = Release;
+		};
+		7B5B7CFE24217F8800672EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuxArTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuxArTest;
+			};
+			name = Debug;
+		};
+		7B5B7CFF24217F8800672EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuxArTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huxley.HuxArTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuxArTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B5B7CC824217F7F00672EEB /* Build configuration list for PBXProject "HuxArTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5B7CF524217F8800672EEB /* Debug */,
+				7B5B7CF624217F8800672EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5B7CF724217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5B7CF824217F8800672EEB /* Debug */,
+				7B5B7CF924217F8800672EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5B7CFA24217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5B7CFB24217F8800672EEB /* Debug */,
+				7B5B7CFC24217F8800672EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5B7CFD24217F8800672EEB /* Build configuration list for PBXNativeTarget "HuxArTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5B7CFE24217F8800672EEB /* Debug */,
+				7B5B7CFF24217F8800672EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B5B7CC524217F7F00672EEB /* Project object */;
+}

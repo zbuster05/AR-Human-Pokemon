@@ -8,10 +8,12 @@
 
 import UIKit
 import SwiftUI
+import Starscream
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    //var socket = WebSocket(url: URL(string:"ws:echo.websocket.org")!)
     var window: UIWindow?
 
 
@@ -42,6 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
+        //socket.delegate = self
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 

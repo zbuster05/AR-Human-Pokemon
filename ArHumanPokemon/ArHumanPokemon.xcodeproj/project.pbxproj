@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6596FE12421AE0A00958F7D /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6596FE02421AE0A00958F7D /* Starscream.framework */; };
 		B685C946242152AC00348B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B685C945242152AC00348B5B /* AppDelegate.swift */; };
 		B685C948242152AC00348B5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B685C947242152AC00348B5B /* ContentView.swift */; };
 		B685C94A242152AC00348B5B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B685C949242152AC00348B5B /* Experience.rcproject */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6596FE02421AE0A00958F7D /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
 		B685C942242152AC00348B5B /* ArHumanPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArHumanPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B685C945242152AC00348B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B685C947242152AC00348B5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,12 +33,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6596FE12421AE0A00958F7D /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6596FDF2421AE0A00958F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6596FE02421AE0A00958F7D /* Starscream.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		B685C939242152AB00348B5B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +73,7 @@
 				B685C94B242152B300348B5B /* Assets.xcassets */,
 				B685C950242152B300348B5B /* LaunchScreen.storyboard */,
 				B685C953242152B300348B5B /* Info.plist */,
+				B6596FDF2421AE0A00958F7D /* Frameworks */,
 				B685C94D242152B300348B5B /* Preview Content */,
 			);
 			path = ArHumanPokemon;
@@ -85,6 +97,7 @@
 				B685C93E242152AB00348B5B /* Sources */,
 				B685C93F242152AB00348B5B /* Frameworks */,
 				B685C940242152AB00348B5B /* Resources */,
+				B688DCBB2421A7CB009FF9A7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -140,6 +153,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B688DCBB2421A7CB009FF9A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B685C93E242152AB00348B5B /* Sources */ = {
@@ -288,6 +323,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ArHumanPokemon/Preview Content\"";
 				DEVELOPMENT_TEAM = Q46J9P9CJ3;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArHumanPokemon/Frameworks",
+				);
 				INFOPLIST_FILE = ArHumanPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +347,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ArHumanPokemon/Preview Content\"";
 				DEVELOPMENT_TEAM = Q46J9P9CJ3;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArHumanPokemon/Frameworks",
+				);
 				INFOPLIST_FILE = ArHumanPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
