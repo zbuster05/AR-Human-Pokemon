@@ -18,20 +18,19 @@ io.on('connection', function(socket){
     socket.on('meta', (msg) => {
         msg = JSON.parse(msg);
         if (msg.hasOwnProperty('join')) {
-            token_by_socket[socket] = msg.join;
+            token_by_socket[socket.id] = msg.join;
             if (!socket_by_token.hasOwnProperty(msg.join))
                 socket_by_token[msg.join] = []
             socket_by_token[msg.join].push(socket);
             console.log("user joined", msg.join);
         }
-
-        console.log(token_by_socket);
-        console.log(socket_by_token);
+        // console.log(token_by_socket);
+        // console.log(socket_by_token);
     });
 
     socket.on('data', (msg) => {
         console.log("Data: " + msg);
-        for (let sok of socket_by_token[token_by_socket[socket]])
+        for (let sok of socket_by_token[token_by_socket[socket.id]])
         {
             if (sok === socket) continue;
             sok.emit('data', msg);
@@ -39,9 +38,11 @@ io.on('connection', function(socket){
     });
 
     socket.on('disconnect', () => {
-        if (socket_by_token[token_by_socket[socket]].length == 1)
-            delete socket_by_token[token_by_socket[socket]];
-        delete token_by_socket[socket];
+        console.log('token_by_socket: ' + token_by_socket[socket.id]);
+        if (socket_by_token[token_by_socket[socket.id]] && socket_by_token[token_by_socket[socket.id]].length == 1) {
+            delete socket_by_token[token_by_socket[socket.id]];
+        }
+        delete token_by_socket[socket.id];
         console.log("a user disconnected :(");
     });
 
