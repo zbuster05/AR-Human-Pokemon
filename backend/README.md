@@ -8,3 +8,8 @@ Make sure you remember to `npm i`!
 
 - https://socket.io/get-started/chat/
 
+## Backups
+**When we realize that sockets will never work...**
+
+https://node.readthedocs.io/en/latest/api/net/
+

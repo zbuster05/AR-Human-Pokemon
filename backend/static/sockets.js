@@ -9,12 +9,30 @@ function getTime() {
     console.log('ping start:', ping);
 }
 
+var joined = false;
+function joinRoom()
+{
+    if (joined) return;
+    let token = document.getElementById('token').value;
+    console.log("joining room " + token);
+    socket.emit("meta", JSON.stringify({join: token}));
+}
+joinRoom();
+
+function sendData() {
+    joinRoom();
+    let data = document.getElementById('input').value;
+
+    console.log(data.length + ":user input: " + data);
+
+    if (data.length > 0) socket.emit("data", data);
+    else getTime();
+}
+
 socket.on('pong', (msg) => {
-    if (parseInt(msg, 10) != ping) getTime();
     let time = Date.now() - ping;
-    console.log(msg, time);
     ping = 0;
-    document.getElementById('time_disp').innerHTML = time.toString();
-})
+    document.getElementById('time_disp').innerHTML = "Ping: " + time.toString();
+});
 
 console.log("sockets initialized!");
