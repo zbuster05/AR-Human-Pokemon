@@ -1,0 +1,24 @@
+{
+  "name": "ar-human-pokemon-server",
+  "version": "1.0.0",
+  "description": "The backend server for ar-human-pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbuster05/AR-Human-Pokemon.git"
+  },
+  "author": "Zatch Attach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbuster05/AR-Human-Pokemon/issues"
+  },
+  "homepage": "https://github.com/zbuster05/AR-Human-Pokemon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "sockets": "^0.4.2"
+  }
+}
