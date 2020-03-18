@@ -15,9 +15,10 @@ io.on('connection', function(socket){
     socket.on('disconnect', () => {
         console.log("a user disconnected :(");
     });
-    socket.on('sync', (msg) => {
-        console.log('data! ', msg);
-        socket.emit('sync', Date().toString());
+
+    socket.on('custom_ping', (msg) => {
+        console.log('ping:', msg);
+        socket.emit('pong', msg);
     });
 });
 
