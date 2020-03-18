@@ -1,10 +1,10 @@
 # AR-Human-Pokemon
 amazing
 
-"10/10 would buy again" - Everyone
+> "10/10 would buy again" - Everyone
 
-"Best platform for creating meaningful attachments" - Zach
+> "Best platform for creating meaningful attachments" - Zach
 
-"This app taught me to how to follow boxes" - Huxely
+> "This app taught me to how to follow boxes" - Huxely
 
-"This product gave me a dog" - Albert
+> "This product gave me a dog" - Albert
