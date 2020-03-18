@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import Starscream
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
