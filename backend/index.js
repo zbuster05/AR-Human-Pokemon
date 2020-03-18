@@ -6,7 +6,7 @@ var io = require('socket.io')(http);
 var socket_by_token = {};
 var token_by_socket = {};
 
-app.get('/', function(req, res){
+app.get('/', function(_, res){
     res.sendFile(__dirname + '/pages/index.html');
 });
 
@@ -24,8 +24,6 @@ io.on('connection', function(socket){
             socket_by_token[msg.join].push(socket);
             console.log("user joined", msg.join);
         }
-        // console.log(token_by_socket);
-        // console.log(socket_by_token);
     });
 
     socket.on('data', (msg) => {
@@ -39,7 +37,8 @@ io.on('connection', function(socket){
 
     socket.on('disconnect', () => {
         console.log('token_by_socket: ' + token_by_socket[socket.id]);
-        if (socket_by_token[token_by_socket[socket.id]] && socket_by_token[token_by_socket[socket.id]].length == 1) {
+        if (socket_by_token.hasOwnProperty(token_by_socket[socket.id])
+            && socket_by_token[token_by_socket[socket.id]].length == 1) {
             delete socket_by_token[token_by_socket[socket.id]];
         }
         delete token_by_socket[socket.id];

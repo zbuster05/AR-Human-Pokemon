@@ -18,7 +18,6 @@ function joinRoom()
     socket.emit("meta", JSON.stringify({join: token}));
     joined = true;
 }
-joinRoom();
 
 function sendData() {
     joinRoom();
@@ -40,4 +39,7 @@ socket.on('data', (msg) => {
     console.log(msg);
 });
 
-console.log("sockets initialized!");
+document.onload = () => {
+    joinRoom();
+    console.log("sockets initialized!");
+}
